@@ -22,7 +22,7 @@ You can just upgrade the project once it's generated.
 1. Right click on the project -> Configuration -> Click on the dropdown(Where it says 'release') and click "New"
 Name it "Debug" and copy configuration settings(from release)
 
-2. Change the target name to something different(Like $(ProjectName)_$(Configuration), for example)
+2. Change the target name to something different(Like `$(ProjectName)_$(Configuration)`, for example)  
 
 3. Click on C/C++ -> General and change `Debug Information Format` to `Program Database for Edit and Continue (\ZI)` or `C7 Compatible(\Z7)`, whatever you want.
 
